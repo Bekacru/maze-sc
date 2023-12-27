@@ -57,12 +57,12 @@ export const DesertLayer = () => {
             <Level
               level={12}
               status="locked"
-              className="lg:mb-4 md:mb-2 xl:mb-9 mb-2"
+              className="lg:mb-4 md:mb-2 xl:mb-9 mb-6"
             />
             <Level level={11} status="nextActive" />
-            <Level level={10} />
-            <Level level={9} />
-            <Level level={8} />
+            <Level level={10} status="retry" />
+            <Level level={9} className="lg:mb-4 mb-2 xl:mb-6" />
+            <Level level={8} className="mb-2" />
             {/* <Level level={8} /> */}
           </div>
           <div className="col-span-1 flex items-end px-2">

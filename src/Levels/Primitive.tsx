@@ -28,7 +28,7 @@ export const Primitive = ({
     >
       {children}
       <span
-        className="lg:text-2xl font-bold md:text-xl text-sm"
+        className="lg:text-2xl font-bold md:text-base text-sm"
         style={{ color }}
       >
         L{level}
