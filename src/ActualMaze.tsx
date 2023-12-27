@@ -56,13 +56,14 @@ export const ActualMaze = () => {
         <DesertLayer />
         <IceLayer />
       </div>
-      <div className="h-[15%] bg-gray-200 flex items-center justify-between">
-        <div className="w-1/3"></div>
-        <div className="w-1/3 flex justify-center">
+      <div className="h-[15%] bg-gray-200 flex px-2 md:px-0 items-center justify-between">
+        <div className="md:w-1/3 hidden md:block"></div>
+        <div className="md:w-1/3 flex justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="100"
             height="100"
+            className="w-12 h-12 md:w-20 md:h-20"
             viewBox="0 0 100 100"
             fill="none"
           >
@@ -117,7 +118,7 @@ export const ActualMaze = () => {
             </defs>
           </svg>
         </div>
-        <div className="w-1/3 justify-end px-2 flex items-center gap-2">
+        <div className="md:w-1/3 justify-end px-2 flex items-center gap-2">
           <div className="flex items-center bg-white px-4 py-2 rounded-md shadow-lg gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -125,19 +126,21 @@ export const ActualMaze = () => {
               height="28"
               viewBox="0 0 28 28"
               fill="none"
+              className="lg:w-6 lg:h-6 w-3 h-4"
             >
               <path
                 d="M24.5 16.625V22.75C24.5 23.2141 24.3156 23.6592 23.9874 23.9874C23.6592 24.3156 23.2141 24.5 22.75 24.5H5.25C4.78587 24.5 4.34075 24.3156 4.01256 23.9874C3.68437 23.6592 3.5 23.2141 3.5 22.75V16.625C3.5 16.3929 3.59219 16.1704 3.75628 16.0063C3.92038 15.8422 4.14294 15.75 4.375 15.75C4.60706 15.75 4.82962 15.8422 4.99372 16.0063C5.15781 16.1704 5.25 16.3929 5.25 16.625V22.75H22.75V16.625C22.75 16.3929 22.8422 16.1704 23.0063 16.0063C23.1704 15.8422 23.3929 15.75 23.625 15.75C23.8571 15.75 24.0796 15.8422 24.2437 16.0063C24.4078 16.1704 24.5 16.3929 24.5 16.625ZM13.3809 17.2441C13.4622 17.3254 13.5587 17.39 13.6649 17.434C13.7712 17.478 13.885 17.5007 14 17.5007C14.115 17.5007 14.2288 17.478 14.3351 17.434C14.4413 17.39 14.5378 17.3254 14.6191 17.2441L18.9941 12.8691C19.0754 12.7878 19.1398 12.6913 19.1838 12.585C19.2278 12.4788 19.2505 12.365 19.2505 12.25C19.2505 12.135 19.2278 12.0212 19.1838 11.915C19.1398 11.8087 19.0754 11.7122 18.9941 11.6309C18.9128 11.5496 18.8163 11.4852 18.71 11.4412C18.6038 11.3972 18.49 11.3745 18.375 11.3745C18.26 11.3745 18.1462 11.3972 18.04 11.4412C17.9337 11.4852 17.8372 11.5496 17.7559 11.6309L14.875 14.513V4.375C14.875 4.14294 14.7828 3.92038 14.6187 3.75628C14.4546 3.59219 14.2321 3.5 14 3.5C13.7679 3.5 13.5454 3.59219 13.3813 3.75628C13.2172 3.92038 13.125 4.14294 13.125 4.375V14.513L10.2441 11.6309C10.0799 11.4668 9.85719 11.3745 9.625 11.3745C9.39281 11.3745 9.17012 11.4668 9.00594 11.6309C8.84175 11.7951 8.74951 12.0178 8.74951 12.25C8.74951 12.4822 8.84175 12.7049 9.00594 12.8691L13.3809 17.2441Z"
                 fill="black"
               />
             </svg>
-            <p>My Report</p>
+            <p className="text-sm">My Report</p>
           </div>
           <div className="bg-orange-400 px-4 rounded-md shadow-lg py-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
               height="32"
+              className="w-4 h-4 md:w-7 md:h-7"
               viewBox="0 0 32 32"
               fill="none"
             >
