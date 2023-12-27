@@ -1,0 +1,41 @@
+.nightBg {
+  background: linear-gradient(
+      125deg,
+      rgba(12, 2, 28, 0.98) 29.58%,
+      rgba(54, 16, 168, 0.319) 70.57%,
+      rgba(20, 6, 53, 0.601) 89.91%
+    ),
+    #000;
+  width: 100%;
+  height: 33.3%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.desertBg {
+  background: linear-gradient(
+      125deg,
+      rgba(255, 234, 212, 0.685) 45.41%,
+      rgba(242, 211, 86, 0.32) 109.31%,
+      rgba(242, 239, 86, 0.19) 109.32%
+    ),
+    #c8e0f2;
+  width: 100%;
+  height: 33.3%;
+  position: relative;
+}
+
+.dayBg {
+  width: 100%;
+  height: 33.3%;
+  position: relative;
+  border: 1px solid #b5b2b2;
+  background: linear-gradient(
+      94deg,
+      rgba(52, 116, 202, 0.35) 2.43%,
+      rgba(115, 144, 182, 0.25) 12.03%,
+      rgba(86, 204, 242, 0.32) 55.33%
+    ),
+    rgba(255, 255, 255, 0.9);
+}
