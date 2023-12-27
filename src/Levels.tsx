@@ -1,4 +1,4 @@
-import { LevelStar, Primitive, Star } from "./Levels/Primitive";
+import { LevelStar, Primitive } from "./Levels/Primitive";
 import { cn } from "./lib/utils";
 
 export const Level = ({
