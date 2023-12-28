@@ -1,4 +1,4 @@
-import { Cloud, GreenTree, Rainbow, Sun, Tree8 } from "../Grass-Vectors";
+import { Cloud, GreenTree, Hill, Rainbow, Sun, Tree8 } from "../Grass-Vectors";
 import { Level } from "../Levels";
 import { Bird } from "../Vectors";
 
@@ -35,7 +35,7 @@ export const GreenLayer = () => {
         <div className="absolute bottom-0 -mb-2 flex items-end justify-between w-full px-4">
           <Level level={15} status="completed" />
           <Level level={16} status="focus" />
-          <Level level={17} status="locked" />
+          <Level level={17} status="locked" className="mb-6" />
           <Level level={18} status="nextActive" />
           <Level level={19} />
           <Level level={20} />
@@ -45,7 +45,9 @@ export const GreenLayer = () => {
         <div className="col-span-1 flex justify-center gap-4">
           <GreenTree className="w-1/12 lg:mt-7 mt-10 md:mt-6 xl:mt-8" />
         </div>
-        <div className="col-span-1 flex gap-6"></div>
+        <div className="col-span-1 flex gap-6 justify-center items-end -mb-16">
+          <Hill className="w-3/12 mr-8" />
+        </div>
         <div className="col-span-1 flex">
           <Tree8 className="w-1/12 mt-10" />
         </div>

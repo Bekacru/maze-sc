@@ -147,7 +147,7 @@ export const LockedLevel = ({ level, className, invertColor }: LevelProps) => {
   return (
     <Primitive
       level={level}
-      className={cn(className, "text-gray-400")}
+      className={cn(className, "text-gray-400 cursor-not-allowed")}
       borderColor={color}
     >
       <svg

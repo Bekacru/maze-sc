@@ -36,12 +36,11 @@ export const IceLayer = () => {
           <div className="absolute bottom-0 -mb-2 flex justify-between w-full px-4">
             <Level level={1} status="completed" />
             <Level level={2} status="focus" />
-            <Level level={3} className="-mt-5" status="locked" />
+            <Level level={3} className="-mt-16" status="locked" />
             <Level level={4} className="-mt-2" status="nextActive" />
-            <Level level={5} className="lg:-mt-16 xl:-mt-20 md:-mt-12 -mt-3" />
+            <Level level={5} className="lg:-mt-16 xl:-mt-24 md:-mt-12 -mt-3" />
             <Level level={6} />
             <Level level={7} />
-            {/* <Level level={8} /> */}
           </div>
           <div className="flex col-span-1 items-end px-2">
             <div className="w-2/6 flex items-end">
@@ -52,7 +51,7 @@ export const IceLayer = () => {
               <Tree1 className="w-3/12" />
             </div>
           </div>
-          <div className="flex col-span-2 items-end -mb-4 justify-end">
+          <div className="flex col-span-2 items-end -mb-4 gap-20 justify-end">
             <Mountain2 className="w-4/12" />
             <Mountain className="w-6/12 -mb-3" />
           </div>

@@ -21,7 +21,7 @@ export const Primitive = ({
   return (
     <div
       className={cn(
-        "border border-dashed bg-gray-100/20 rounded-full p-4 w-5 h-5 md:h-10 md:w-10 relative lg:h-16 lg:w-16 flex items-center justify-center",
+        "border border-dashed cursor-pointer bg-gray-100/20 rounded-full p-4 w-5 h-5 md:h-10 md:w-10 relative lg:h-16 lg:w-16 flex items-center justify-center",
         className
       )}
       style={{ borderColor, background }}
