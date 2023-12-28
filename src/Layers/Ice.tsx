@@ -36,7 +36,11 @@ export const IceLayer = () => {
           <div className="absolute bottom-0 -mb-2 flex justify-between w-full px-4">
             <Level level={1} status="completed" />
             <Level level={2} status="focus" />
-            <Level level={3} className="-mt-16" status="locked" />
+            <Level
+              level={3}
+              className="md:-mt-8 lg:-mt-12 -mt-2 xl:-mt-16"
+              status="locked"
+            />
             <Level level={4} className="-mt-2" status="nextActive" />
             <Level level={5} className="lg:-mt-16 xl:-mt-24 md:-mt-12 -mt-3" />
             <Level level={6} />
